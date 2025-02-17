@@ -3,137 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Music Player</title>
     <link rel="stylesheet" href="style.css">
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <div class="main">
+        
+        <!-- Header -->
         <div class="header">
-          <h1 class="arrow">&lt;</h1>
-          <h1 class="title">Playing</h1>
-          <div class="spacer"></div>
+            <h1 class="arrow">&lt;</h1>
+            <h1 class="title">Playing</h1>
+            <div class="spacer"></div>
         </div>
 
+        <!-- Song Image -->
         <div class="pic">
-        <img src="Image/Rectangle 21.png" alt="on my way">
+            <img src="Image/Rectangle21.png" alt="On My Way">
         </div>
 
+        <!-- Song Info -->
         <div class="song">
             <div class="text">
-            <h2>On My Way</h2>
-            <h3>Alan Walker</h3>
-        </div>
-            <img src="Image/share downlod fav.png" alt="love">
+                <h2>On My Way</h2>
+                <h3>Alan Walker</h3>
             </div>
-        
-            <div class="play">
-                <img class="line-green"  src="Image/Line 6.png" alt="green">
-                <img class="line-gray"  src="Image\Line 7.png" alt="green">
-                <img class="time-left"  src="Image\01_23.png" alt="green">
-                <img class="time-right"  src="Image\03_34.png" alt="green">
-                <img class="ellipse" src="Image\Ellipse 12.png" alt="ellipse12">
-                 </div>
+            <div class="icons">
+                <img src="Image/share.png" alt="Share">
+                <img src="Image/download.png" alt="Download">
+                <img src="Image/heart.png" alt="Like">
+            </div>
+        </div>
 
-                <div class="footer">
-                    <img class="cli_loop" src="Image/cil_loop.png" alt="cil_loop">
-                    <img class="next"src="Image/next arro.png" alt="next arro">
-                    <img class="circle"src="Image/Ellipse 10.png" alt="circle">
-                    <img class="polygon"src="Image/Polygon 3.png" alt="polygon">
-                    <img class="arro2"src="Image/next arro1.png" alt="next arro2">
-                    <img class="group"src="Image\Group.png" alt="group">
-                    
-                    </div>
-            
-        <div class="Up-next">
-            <div class="text2">
-            <h4 class="text44">Up next</h4>
+        <!-- Progress Bar -->
+        <div class="play">
+            <span class="time-left">01:23</span>
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <span class="time-right">03:34</span>
+        </div>
+
+        <!-- Playback Controls -->
+        <div class="controls">
+            <img src="Image/loop.png" alt="Loop">
+            <img src="Image/prev.png" alt="Previous">
+            <div class="play-btn">
+                <img src="Image/play.png" alt="Play">
+            </div>
+            <img src="Image/next.png" alt="Next">
+            <img src="Image/shuffle.png" alt="Shuffle">
+        </div>
+
+        <!-- Up Next -->
+        <div class="up-next">
+            <h4>Up Next</h4>
             <h6 class="view-all">View All</h6>
         </div>
-        
-            <img class="ep" src="Image/ep_arrow-right.png" alt="ep_arrow-right">
 
-
-        </div>
-
-
+        <!-- Playlist -->
         <div class="playlist">
+            <div class="playlist-item">
+                <img src="Image/Ranjhan.png" alt="Ranjhan">
+                <div class="text">
+                    <h1>Ranjhan</h1>
+                    <h6>B Park</h6>
+                </div>
+                <div class="icons">
+                    <img src="Image/heart.png" alt="Like">
+                    <img src="Image/options.png" alt="More">
+                </div>
+            </div>
 
-            <div class="text3">
-                <h1 class="ran">Ranjhan</h1>
-                <h6 class="b-park">B Park</h6>
-                 </div>
-               
-            
-            <img class="ranjhna" src="Image\Rectangle 23 (2).png" alt="ranjhna">
-            <img class="dot1" src="Image\CIRCLE.png" alt="3dot">
-            <img class="akar" src="Image\akar-icons_heart (1).png" alt="akar">
+            <div class="playlist-item">
+                <img src="Image/Barish.png" alt="Barish">
+                <div class="text">
+                    <h1>Barish</h1>
+                    <h6>Barish</h6>
+                </div>
+                <div class="icons">
+                    <img src="Image/heart.png" alt="Like">
+                    <img src="Image/options.png" alt="More">
+                </div>
+            </div>
+
+            <div class="playlist-item">
+                <img src="Image/BomDiggi.png" alt="Bom Diggi Bom">
+                <div class="text">
+                    <h1>Bom Diggi Bom Bom</h1>
+                </div>
+                <div class="icons">
+                    <img src="Image/heart.png" alt="Like">
+                    <img src="Image/options.png" alt="More">
+                </div>
+            </div>
         </div>
-            
-             
-    
 
-    <div class="playlist2">
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <img src="Image/home.png" alt="Home">
+            <img src="Image/download.png" alt="Download">
+            <img src="Image/settings.png" alt="Settings">
+        </div>
 
-        <div class="text4">
-            <h1 class="barish">Barish</h1>
-            <h6 class="barish1">Barish</h6>
-             </div>
-           
-        <img class="Rectangle-22" src="Image\Rectangle 23.png" alt="Rectangle-22">
-        <img class="dot2" src="Image\CIRCLE.png" alt="3dot">
-        <img class="akar2" src="Image\akar-icons_heart (1).png" alt="akar">
-        
-         
-</div>
-<div class="playlist3">
-
-    <div class="text5">
-        <h1 class="bom1">Bom Diggi Bom Bom</h1>
-        
-         </div>
-       
-    <img class="bom" src="Image\Rectangle 23 (4).png" alt="bom">
-    <img class="dot3" src="Image\CIRCLE.png" alt="3dot">
-    <img class="akar3" src="Image\akar-icons_heart (1).png" alt="akar">
-    
-     
-</div>
-
-<div class="playlist4">
-
-    <div class="text7">
-        <h1 class="filball">Filball</h1>
-        
-         </div>
-       
-    <img class="filball1" src="Image\Rectangle 23 (1).png" alt="filball">
-    <img class="dot4" src="Image\CIRCLE.png" alt="3dot">
-    <img class="akar4" src="Image\akar-icons_heart (1).png" alt="akar">
-    
-     
-</div>
-<div class="playlist5">
-
-           
-    <div class="container-icons">     
-    <img class="bxc" src="Image\bxs_home-circle.png" alt="bxc">
-    <img class="ellipsa4" src="Image\Ellipse 4.png" alt="ellipsa4">
     </div>
-    <img class="love1" src="Image\akar-icons_heart.png" alt="love">
-    <img class="ic" src="Image\ic_baseline-file-download.png" alt="ic">
-    <img class="setting" src="Image\ep_setting.png" alt="setting">
-    
-     
-</div>
-
-</div>
-
-
 </body>
 </html>
